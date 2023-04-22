@@ -1,0 +1,537 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/namso50/Filecoin/filecoin-quest8/contracts/DataDao.sol": {
+      "lastModificationDate": 1680267950457,
+      "contentHash": "5a1d378376c24092eb8b372a83769455",
+      "sourceName": "contracts/DataDao.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./tradingProposal.sol",
+        "@zondax/filecoin-solidity/contracts/v0.8/MarketAPI.sol",
+        "@zondax/filecoin-solidity/contracts/v0.8/types/MarketTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "DataDao"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/contracts/tradingProposal.sol": {
+      "lastModificationDate": 1680267950457,
+      "contentHash": "4bf1d6bbea92f82265d5121ecd155200",
+      "sourceName": "contracts/tradingProposal.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "TradingProposal"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/types/MarketTypes.sol": {
+      "lastModificationDate": 1680268035337,
+      "contentHash": "8980e82d8098779c6b65b770033b6d72",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/types/MarketTypes.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../cbor/BigIntCbor.sol",
+        "./CommonTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "MarketTypes"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/MarketAPI.sol": {
+      "lastModificationDate": 1680268035057,
+      "contentHash": "da30109f017d53654c34beb0302b5e43",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/MarketAPI.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./types/MarketTypes.sol",
+        "./cbor/MarketCbor.sol",
+        "./cbor/BytesCbor.sol",
+        "./cbor/FilecoinCbor.sol",
+        "./types/CommonTypes.sol",
+        "./utils/Misc.sol",
+        "./utils/Actor.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "MarketAPI"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/types/CommonTypes.sol": {
+      "lastModificationDate": 1680268030717,
+      "contentHash": "0c9dccbc5681a50c9ea36c52d4071894",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/types/CommonTypes.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../cbor/BigIntCbor.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "CommonTypes"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/cbor/BigIntCbor.sol": {
+      "lastModificationDate": 1680268030017,
+      "contentHash": "e8b1b6decb26af1a1dc29ca1f65e5330",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/cbor/BigIntCbor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/CommonTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "BigIntCBOR"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/cbor/MarketCbor.sol": {
+      "lastModificationDate": 1680268035097,
+      "contentHash": "fcc6d0327f78a86464693a15777215c8",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/cbor/MarketCbor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "solidity-cborutils/contracts/CBOR.sol",
+        "./BigIntCbor.sol",
+        "./FilecoinCbor.sol",
+        "../utils/CborDecode.sol",
+        "../types/MarketTypes.sol",
+        "../utils/Misc.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "MarketCBOR"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/cbor/FilecoinCbor.sol": {
+      "lastModificationDate": 1680268031907,
+      "contentHash": "48c6bf5eb8215f2ff61820a954e4dd27",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/cbor/FilecoinCbor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "solidity-cborutils/contracts/CBOR.sol",
+        "@ensdomains/buffer/contracts/Buffer.sol",
+        "../types/CommonTypes.sol",
+        "../utils/CborDecode.sol",
+        "../cbor/BigIntCbor.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "FilecoinCBOR"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/cbor/BytesCbor.sol": {
+      "lastModificationDate": 1680268030157,
+      "contentHash": "18018dd48069bfc7dd200c4f26fa7796",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/cbor/BytesCbor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "solidity-cborutils/contracts/CBOR.sol",
+        "../utils/CborDecode.sol",
+        "../types/CommonTypes.sol",
+        "./BigIntCbor.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "BytesCBOR"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/utils/Actor.sol": {
+      "lastModificationDate": 1680268029787,
+      "contentHash": "85561dba1b49c1d5b14a3c5ec45f8492",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/utils/Actor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Misc.sol",
+        "../types/CommonTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Actor"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/utils/Misc.sol": {
+      "lastModificationDate": 1680268035617,
+      "contentHash": "245190b77e745ffdcb0f41e8589a1aa0",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/utils/Misc.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Misc"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/solidity-cborutils/contracts/CBOR.sol": {
+      "lastModificationDate": 1680268026417,
+      "contentHash": "f6fe9c5e14ab5496490b8d36007fdffd",
+      "sourceName": "solidity-cborutils/contracts/CBOR.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@ensdomains/buffer/contracts/Buffer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "CBOR"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@zondax/filecoin-solidity/contracts/v0.8/utils/CborDecode.sol": {
+      "lastModificationDate": 1680268030497,
+      "contentHash": "2a9a2327cdfb430a310f5608c0912870",
+      "sourceName": "@zondax/filecoin-solidity/contracts/v0.8/utils/CborDecode.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "CBORDecoder"
+      ]
+    },
+    "/home/namso50/Filecoin/filecoin-quest8/node_modules/@ensdomains/buffer/contracts/Buffer.sol": {
+      "lastModificationDate": 1680268037557,
+      "contentHash": "d3d00f20f206848f1e90d596ebcc557b",
+      "sourceName": "@ensdomains/buffer/contracts/Buffer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Buffer"
+      ]
+    }
+  }
+}
